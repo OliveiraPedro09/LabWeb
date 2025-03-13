@@ -1,0 +1,5 @@
+-- database: ./empresa.db
+
+SELECT * FROM funcionarios;
+
+DELETE FROM funcionarios WHERE nome NOT NULL;
